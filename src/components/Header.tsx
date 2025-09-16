@@ -30,12 +30,12 @@ const Header = () => {
         </div>
         
         {/* Main header */}
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-6">
           <div className="flex items-center">
             <img 
               src="/chauffeur brussels logo.jpeg" 
               alt="Chauffeur Bruxelles"
-              className="h-12 w-auto"
+              className="h-14 w-auto"
             />
             <div className="ml-3">
               <h1 className="text-xl font-bold text-gray-900">Chauffeur</h1>
@@ -45,19 +45,19 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#accueil" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <a href="#accueil" className="text-gray-700 hover:text-primary-600 font-semibold transition-colors">
               Accueil
             </a>
-            <a href="#services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <a href="#services" className="text-gray-700 hover:text-primary-600 font-semibold transition-colors">
               Services
             </a>
-            <a href="#flotte" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <a href="#flotte" className="text-gray-700 hover:text-primary-600 font-semibold transition-colors">
               Flotte
             </a>
-            <a href="#location-bus" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <a href="#location-bus" className="text-gray-700 hover:text-primary-600 font-semibold transition-colors">
               Location Bus
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
+            <a href="#contact" className="text-gray-700 hover:text-primary-600 font-semibold transition-colors">
               Contact
             </a>
             <a href="tel:+3225520905" className="btn-primary">
@@ -75,39 +75,39 @@ const Header = () => {
         
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
+          <div className="md:hidden py-4 border-t border-gray-200 bg-white shadow-md">
             <nav className="flex flex-col space-y-4">
               <a 
                 href="#accueil" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-600 font-semibold transition-colors"
                 onClick={toggleMenu}
               >
                 Accueil
               </a>
               <a 
                 href="#services" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-600 font-semibold transition-colors"
                 onClick={toggleMenu}
               >
                 Services
               </a>
               <a 
                 href="#flotte" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-600 font-semibold transition-colors"
                 onClick={toggleMenu}
               >
                 Flotte
               </a>
               <a 
                 href="#location-bus" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-600 font-semibold transition-colors"
                 onClick={toggleMenu}
               >
                 Location Bus
               </a>
               <a 
                 href="#contact" 
-                className="text-gray-700 hover:text-primary-600 font-medium transition-colors"
+                className="text-gray-700 hover:text-primary-600 font-semibold transition-colors"
                 onClick={toggleMenu}
               >
                 Contact
