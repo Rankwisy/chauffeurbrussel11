@@ -9,7 +9,8 @@ import {
   Shield,
   Star,
   ArrowRight,
-  CheckCircle
+  CheckCircle,
+  Phone
 } from 'lucide-react';
 
 const Services = () => {
